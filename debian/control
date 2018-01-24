@@ -1,0 +1,15 @@
+Source: jsonmodels
+Maintainer: Matthias Urlichs <matthias@urlichs.de>
+Section: python
+Priority: optional
+Build-Depends: dh-python, python3-setuptools, python3-all, debhelper (>= 9)
+Standards-Version: 3.9.6
+Homepage: https://github.com/beregond/jsonmodels
+
+Package: python3-jsonmodels
+Architecture: all
+Depends: ${misc:Depends}, ${python3:Depends}
+Description: Library to convert JSON structs to models and back
+ `jsonmodels` is library to make it easier for you to deal with structures that
+ are converted to, or read from JSON.
+
