@@ -114,7 +114,7 @@ class ObjectBuilder(Builder):
 
     @property
     def is_root(self):
-        return not bool(self.parent)
+        return self.parent is not None
 
 
 def _apply_validators_modifications(field_schema, field):
