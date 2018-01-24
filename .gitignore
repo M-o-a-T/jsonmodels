@@ -6,8 +6,10 @@
 # Packages
 *.egg
 *.egg-info
+/.cache/
 dist
 build
+/.pybuild/
 eggs
 parts
 bin
