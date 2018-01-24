@@ -1,3 +1,9 @@
+jsonmodels (2.2-2) smurf; urgency=medium
+
+  * build-dep on invoke
+
+ -- Matthias Urlichs <matthias@urlichs.de>  Wed, 24 Jan 2018 12:35:29 +0100
+
 jsonmodels (2.2-1) smurf; urgency=low
 
   * source package automatically created by stdeb 0.8.5
